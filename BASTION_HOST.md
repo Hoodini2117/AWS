@@ -7,4 +7,17 @@ A Bastion Host is a publicly accessible EC2 instance that acts as a secure gatew
 configuring a bastion host includes several steps :- 
 
 ### create vpc
-https://cdn.discordapp.com/attachments/843880824696471552/1376810479850360892/image.png?ex=68413a2e&is=683fe8ae&hm=0f2d75666ed3ab9b98697a16f970d025e3bd7ee97a012894d2dd681507bb50d0&
+![image](https://github.com/user-attachments/assets/a3a69d59-63b5-4651-b394-1ef29dc386d8)
+
+### create public and private subnets 
+![image](https://github.com/user-attachments/assets/ab97ad8e-4216-48d1-a6fc-a67f6df69ac3)
+
+### create internet gateway
+![image](https://github.com/user-attachments/assets/b497f124-0d7b-46ca-aec3-b174ac93971c)
+
+add route tables to the IGW
+![image](https://github.com/user-attachments/assets/9af79cdd-8324-4ef6-8b27-4646e3de2a8e)
+
+
+from the bastion host..ssh into the private ec2
+![image](https://github.com/user-attachments/assets/dc83458e-9420-424d-8791-8459f9df422c)
