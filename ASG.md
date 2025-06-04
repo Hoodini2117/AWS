@@ -8,3 +8,6 @@ The process begins with creating an Amazon Machine Image (AMI)—a snapshot of a
 
 ASGs can be configured to scale dynamically using real-time monitoring tools like CloudWatch alarms. For example, if CPU usage exceeds 80% for a set duration, the ASG will launch additional instances to distribute the load. Conversely, if CPU usage falls below a certain threshold, it will terminate unneeded instances to reduce costs.
 
+![Screenshot 2025-05-27 013514](https://github.com/user-attachments/assets/18882691-f392-42f0-b060-838c272b7cac)
+![Screenshot 2025-05-27 013743](https://github.com/user-attachments/assets/0b3409bd-600a-4706-92fa-f97d9ced73cf)
+![Screenshot 2025-05-27 013810](https://github.com/user-attachments/assets/21ee9fba-2482-49c2-80d6-8b2c50991467)
